@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+@import '../base/root.css';
+@import '../base/reset.css';
+@import '../base/global.css';
+@import '../base/utilities.css';
+@import '../components/quotes.css';
+@import '../components/ratings.css';
+
+
+

@@ -1,0 +1,28 @@
+.rating-box  {
+    background: url(';./images/icon-star.svg') round top;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1em;
+
+}
+
+.rating-box p {
+    border-radius: var(--br);
+    background-color: var(--light-grayish-magenta);
+    padding: .5rem;
+}
+
+.rating-box span {
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+}
+
+.rating-box p:before {
+    content: '';
+    background: url('../images/icon-star.svg') space;
+    width: 100px;
+    height: 1rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+}

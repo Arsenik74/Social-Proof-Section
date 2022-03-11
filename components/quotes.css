@@ -1,0 +1,92 @@
+.card-box-1 {
+    background: var(--very-dark-magenta);
+    border-radius: var(--br);
+    padding: 2rem;
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow: hidden;
+
+}
+
+.card-box-1  span {
+    color: var(--soft-pink);
+}
+.card-box-1 p {
+    padding-top: 1rem;
+    color: var(--white);
+}
+
+
+
+
+
+.profile-picture {
+    border-radius: 50%;
+}
+
+.card-box-2 {
+    background: var(--very-dark-magenta);
+    border-radius: var(--br);
+    padding: 2rem;
+    text-align: left;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow: hidden;
+    /*margin-left: 1.9rem;*/
+    /*margin-right: 1.9rem;*/
+
+}
+
+.card-box-2 span {
+    color: var(--soft-pink);
+}
+.card-box-2 p {
+    padding-top: 1rem;
+    color: var(--white);
+}
+
+.card-box-3 {
+    background: var(--very-dark-magenta);
+    border-radius: var(--br);
+    padding: 2rem;
+    text-align: left;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow: hidden;
+    /*margin-left: 1.9rem;*/
+    /*margin-right: 1.9rem;*/
+
+
+}
+
+.card-box-3 span {
+    color: var(--soft-pink);
+}
+
+.card-box-3 p {
+    padding-top: 1rem;
+    color: var(--white);
+}
+
+.photo-info  {
+    display: flex;
+    align-items: center;
+
+}
+
+.photo-info h3 {
+    color: var(--white);
+}
+
+.photo-info > img {
+    height: 60px;
+}
+
+.info {
+    padding-left: 1rem;
+}
